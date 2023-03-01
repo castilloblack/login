@@ -1,0 +1,51 @@
+{
+    margin: 0;
+    padding: 0;
+    -webkit-boxsizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: url(descarga.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: Roborto;
+    color:rgb(0, 0, 0);
+}
+.contenedor-form{
+    padding-left: 10%;
+    padding-top: 10%;
+    right: 7px;
+    width: 100px;
+    height: 30%;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+input[type=text], select{
+    width: 500%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select{
+    width: 500%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box
+}
+input[type=text]:hover{
+    background-color: floralwhite;
+   }
+input[type=submit], select{
+    background-color: rgb(22, 109, 30);
+    color: ivory
+}
